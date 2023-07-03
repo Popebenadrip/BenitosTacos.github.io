@@ -218,11 +218,13 @@ label{
 /* ||FOOTER */
 
 .footer{
-    position: fixed;
+    position: relative;
     bottom: 0px;
+    left: 50%;
     background-color: var(--HEADER-BGCOLOUR);
     color: var(--HEADER-COLOUR);
-    padding: var(--PADDING-TB) 58px;
+    transform: translateX(-50%);
+    padding: var(--PADDING-TB) var(--PADDING-SIDE) ;
     text-align: center;
 }
 
