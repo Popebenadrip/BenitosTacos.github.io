@@ -171,7 +171,7 @@ label{
     padding: var(--PADDING-TB) var(--PADDING-SIDE);
     list-style-type: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 0.62rem;
 }
 
