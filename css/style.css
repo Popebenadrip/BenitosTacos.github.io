@@ -171,7 +171,7 @@ label{
     padding: var(--PADDING-TB) var(--PADDING-SIDE);
     list-style-type: none;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     gap: 0.62rem;
 }
 
@@ -213,11 +213,11 @@ label{
 /* ||FOOTER */
 
 .footer{
-    position: sticky;
+    position: fixed;
     bottom: 0;
     background-color: var(--HEADER-BGCOLOUR);
     color: var(--HEADER-COLOUR);
-    padding: var(--PADDING-TB) var(--PADDING-SIDE);
+    padding: var(--PADDING-TB) var(--PADDING-SIDE) 50px;
     text-align:center;
 }
 
