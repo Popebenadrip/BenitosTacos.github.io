@@ -217,7 +217,7 @@ label{
     bottom: 0;
     background-color: var(--HEADER-BGCOLOUR);
     color: var(--HEADER-COLOUR);
-    padding: var(--PADDING-TB) var(--PADDING-TB);
+    padding: var(--PADDING-TB) var(--PADDING-SIDE);
     text-align:center;
 }
 
